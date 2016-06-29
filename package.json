@@ -1,0 +1,19 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.3.8",
+    "control.monads": "^0.6.0",
+    "data.task": "^3.1.0",
+    "fantasy-io": "0.0.1",
+    "mysql": "^2.10.2",
+    "ramda": "^0.21.0"
+  }
+}
