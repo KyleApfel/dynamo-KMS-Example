@@ -102,13 +102,13 @@ const
   main = (function (){
     const
     runMe = du (T) ( bind  (encryptConfig)
-                   , map (logI)
+                   , map   (logI)
                    , chain (storeEncString)
                    , chain (getEncString)
-                   , map (wrapEncString)
-                   , map (logI)
+                   , map   (wrapEncString)
+                   , map   (logI)
                    , chain (decryptString)
-                   , map (logI)),
+                   , map   (logI)),
 
     nil = null;
 
